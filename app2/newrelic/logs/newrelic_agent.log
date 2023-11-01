@@ -1,0 +1,209 @@
+2023-11-01T12:01:15,616-0400 [24058 1] com.newrelic INFO: Writing to New Relic log file: /Users/mishan.goti/IdeaProjects/gts/distributed-tracing-poc/app2/newrelic/logs/newrelic_agent.log
+2023-11-01T12:01:15,616-0400 [24058 1] com.newrelic INFO: JRE vendor Eclipse Adoptium version 17.0.8.1
+2023-11-01T12:01:15,616-0400 [24058 1] com.newrelic INFO: JVM vendor Eclipse Adoptium OpenJDK 64-Bit Server VM version 17.0.8.1+1
+2023-11-01T12:01:15,616-0400 [24058 1] com.newrelic INFO: OS Mac OS X version 13.6 arch aarch64
+2023-11-01T12:01:15,617-0400 [24058 1] com.newrelic INFO: Agent Host: L67190 IP: 10.0.0.168
+2023-11-01T12:01:15,617-0400 [24058 1] com.newrelic INFO: New Relic Agent v8.7.0 is initializing...
+2023-11-01T12:01:15,851-0400 [24058 16] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2023-11-01T12:01:16,140-0400 [24058 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2023-11-01T12:01:16,227-0400 [24058 1] com.newrelic INFO: Setting audit_mode to false
+2023-11-01T12:01:16,274-0400 [24058 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /Users/mishan.goti/IdeaProjects/gts/distributed-tracing-poc/app2/newrelic/./newrelic.yml
+2023-11-01T12:01:16,275-0400 [24058 1] com.newrelic INFO: New Relic Agent v8.7.0 has started
+2023-11-01T12:01:16,275-0400 [24058 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@7113b13f
+2023-11-01T12:01:16,275-0400 [24058 1] com.newrelic INFO: Premain startup complete in 1,107ms
+2023-11-01T12:01:16,276-0400 [24058 1] com.newrelic WARN: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2023-11-01T12:01:17,349-0400 [24058 1] com.newrelic INFO: Server Info: Apache Tomcat/10.1.15
+2023-11-01T12:01:18,797-0400 [24058 15] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2023-11-01T12:01:18,798-0400 [24058 15] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2023-11-01T12:16:28,822-0400 [68026 1] com.newrelic INFO: Writing to New Relic log file: /Users/mishan.goti/IdeaProjects/gts/distributed-tracing-poc/app2/newrelic/logs/newrelic_agent.log
+2023-11-01T12:16:28,823-0400 [68026 1] com.newrelic INFO: JRE vendor Eclipse Adoptium version 17.0.8.1
+2023-11-01T12:16:28,823-0400 [68026 1] com.newrelic INFO: JVM vendor Eclipse Adoptium OpenJDK 64-Bit Server VM version 17.0.8.1+1
+2023-11-01T12:16:28,823-0400 [68026 1] com.newrelic INFO: OS Mac OS X version 13.6 arch aarch64
+2023-11-01T12:16:28,823-0400 [68026 1] com.newrelic INFO: Agent Host: L67190 IP: 10.0.0.168
+2023-11-01T12:16:28,823-0400 [68026 1] com.newrelic INFO: New Relic Agent v8.7.0 is initializing...
+2023-11-01T12:16:29,038-0400 [68026 16] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2023-11-01T12:16:29,330-0400 [68026 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2023-11-01T12:16:29,415-0400 [68026 1] com.newrelic INFO: Setting audit_mode to false
+2023-11-01T12:16:29,464-0400 [68026 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /Users/mishan.goti/IdeaProjects/gts/distributed-tracing-poc/app2/newrelic/./newrelic.yml
+2023-11-01T12:16:29,465-0400 [68026 1] com.newrelic INFO: New Relic Agent v8.7.0 has started
+2023-11-01T12:16:29,465-0400 [68026 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@7113b13f
+2023-11-01T12:16:29,466-0400 [68026 1] com.newrelic INFO: Premain startup complete in 1,095ms
+2023-11-01T12:16:29,466-0400 [68026 1] com.newrelic WARN: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2023-11-01T12:16:30,514-0400 [68026 1] com.newrelic INFO: Server Info: Apache Tomcat/10.1.15
+2023-11-01T12:16:34,474-0400 [68026 41] com.newrelic INFO: Host name is L67190, display host L67190 for application app2
+2023-11-01T12:16:34,475-0400 [68026 41] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-11-01T12:16:34,936-0400 [68026 41] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2023-11-01T12:16:35,209-0400 [68026 41] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2023-11-01T12:16:35,209-0400 [68026 41] com.newrelic INFO: Agent run id: BRKHx1uRz8wCAEBlCSCzBrBlQno4AAIBAAAnIQEAAQm6AgQgsvt5AwAFOC43LjAABkw2NzE5MAAEYXBwMg
+2023-11-01T12:16:35,210-0400 [68026 41] com.newrelic INFO: Agent 68026@L67190/app2 connected to collector.newrelic.com:443
+2023-11-01T12:16:35,210-0400 [68026 41] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/4220169/applications/548600697
+2023-11-01T12:16:35,212-0400 [68026 41] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-11-01T12:16:35,212-0400 [68026 41] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-11-01T12:16:35,212-0400 [68026 41] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-11-01T12:16:35,214-0400 [68026 41] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-11-01T12:16:35,214-0400 [68026 41] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-11-01T12:16:35,214-0400 [68026 41] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-11-01T12:16:35,359-0400 [68026 41] com.newrelic INFO: Real user monitoring is enabled for application app2. Auto instrumentation is enabled.
+2023-11-01T12:16:35,359-0400 [68026 41] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-11-01T12:20:19,311-0400 [68026 15] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2023-11-01T12:20:19,342-0400 [68026 46] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@7d9de6e3 tried to finish but ServiceManager not started
+2023-11-01T12:20:19,499-0400 [68026 15] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2023-11-01T12:20:21,019-0400 [79397 1] com.newrelic INFO: Writing to New Relic log file: /Users/mishan.goti/IdeaProjects/gts/distributed-tracing-poc/app2/newrelic/logs/newrelic_agent.log
+2023-11-01T12:20:21,019-0400 [79397 1] com.newrelic INFO: JRE vendor Eclipse Adoptium version 17.0.8.1
+2023-11-01T12:20:21,019-0400 [79397 1] com.newrelic INFO: JVM vendor Eclipse Adoptium OpenJDK 64-Bit Server VM version 17.0.8.1+1
+2023-11-01T12:20:21,019-0400 [79397 1] com.newrelic INFO: OS Mac OS X version 13.6 arch aarch64
+2023-11-01T12:20:21,019-0400 [79397 1] com.newrelic INFO: Agent Host: L67190 IP: 10.0.0.168
+2023-11-01T12:20:21,019-0400 [79397 1] com.newrelic INFO: New Relic Agent v8.7.0 is initializing...
+2023-11-01T12:20:21,225-0400 [79397 16] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2023-11-01T12:20:21,517-0400 [79397 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2023-11-01T12:20:21,604-0400 [79397 1] com.newrelic INFO: Setting audit_mode to false
+2023-11-01T12:20:21,653-0400 [79397 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /Users/mishan.goti/IdeaProjects/gts/distributed-tracing-poc/app2/newrelic/./newrelic.yml
+2023-11-01T12:20:21,655-0400 [79397 1] com.newrelic INFO: New Relic Agent v8.7.0 has started
+2023-11-01T12:20:21,655-0400 [79397 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@7113b13f
+2023-11-01T12:20:21,656-0400 [79397 1] com.newrelic INFO: Premain startup complete in 1,049ms
+2023-11-01T12:20:21,656-0400 [79397 1] com.newrelic WARN: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2023-11-01T12:20:22,760-0400 [79397 1] com.newrelic INFO: Server Info: Apache Tomcat/10.1.15
+2023-11-01T12:20:26,662-0400 [79397 41] com.newrelic INFO: Host name is L67190, display host L67190 for application app2
+2023-11-01T12:20:26,664-0400 [79397 41] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-11-01T12:20:27,122-0400 [79397 41] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2023-11-01T12:20:27,371-0400 [79397 41] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2023-11-01T12:20:27,372-0400 [79397 41] com.newrelic INFO: Agent run id: BVAfGxm6wMXaAEBlCSCzBrBlQnsoAAIBAAAnIQEAATYlAgQgsvt5AwAFOC43LjAABkw2NzE5MAAEYXBwMg
+2023-11-01T12:20:27,372-0400 [79397 41] com.newrelic INFO: Agent 79397@L67190/app2 connected to collector.newrelic.com:443
+2023-11-01T12:20:27,372-0400 [79397 41] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/4220169/applications/548600697
+2023-11-01T12:20:27,374-0400 [79397 41] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-11-01T12:20:27,374-0400 [79397 41] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-11-01T12:20:27,374-0400 [79397 41] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-11-01T12:20:27,376-0400 [79397 41] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-11-01T12:20:27,376-0400 [79397 41] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-11-01T12:20:27,376-0400 [79397 41] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-11-01T12:20:27,517-0400 [79397 41] com.newrelic INFO: Real user monitoring is enabled for application app2. Auto instrumentation is enabled.
+2023-11-01T12:20:27,517-0400 [79397 41] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-11-01T12:22:14,467-0400 [79397 15] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2023-11-01T12:22:14,673-0400 [79397 15] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2023-11-01T12:22:17,425-0400 [85144 1] com.newrelic INFO: Writing to New Relic log file: /Users/mishan.goti/IdeaProjects/gts/distributed-tracing-poc/app2/newrelic/logs/newrelic_agent.log
+2023-11-01T12:22:17,430-0400 [85144 1] com.newrelic INFO: JRE vendor Eclipse Adoptium version 17.0.8.1
+2023-11-01T12:22:17,431-0400 [85144 1] com.newrelic INFO: JVM vendor Eclipse Adoptium OpenJDK 64-Bit Server VM version 17.0.8.1+1
+2023-11-01T12:22:17,431-0400 [85144 1] com.newrelic INFO: OS Mac OS X version 13.6 arch aarch64
+2023-11-01T12:22:17,431-0400 [85144 1] com.newrelic INFO: Agent Host: L67190 IP: 10.0.0.168
+2023-11-01T12:22:17,431-0400 [85144 1] com.newrelic INFO: New Relic Agent v8.7.0 is initializing...
+2023-11-01T12:22:17,633-0400 [85144 16] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2023-11-01T12:22:17,924-0400 [85144 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2023-11-01T12:22:18,010-0400 [85144 1] com.newrelic INFO: Setting audit_mode to false
+2023-11-01T12:22:18,060-0400 [85144 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /Users/mishan.goti/IdeaProjects/gts/distributed-tracing-poc/app2/newrelic/./newrelic.yml
+2023-11-01T12:22:18,062-0400 [85144 1] com.newrelic INFO: New Relic Agent v8.7.0 has started
+2023-11-01T12:22:18,062-0400 [85144 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@7113b13f
+2023-11-01T12:22:18,062-0400 [85144 1] com.newrelic INFO: Premain startup complete in 1,046ms
+2023-11-01T12:22:18,062-0400 [85144 1] com.newrelic WARN: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2023-11-01T12:22:19,131-0400 [85144 1] com.newrelic INFO: Server Info: Apache Tomcat/10.1.15
+2023-11-01T12:22:23,072-0400 [85144 41] com.newrelic INFO: Host name is L67190, display host L67190 for application app2
+2023-11-01T12:22:23,074-0400 [85144 41] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-11-01T12:22:23,666-0400 [85144 41] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2023-11-01T12:22:23,934-0400 [85144 41] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2023-11-01T12:22:23,934-0400 [85144 41] com.newrelic INFO: Agent run id: BRqZQw7E_7UUAEBlCSCzBrBlQnugAAIBAAAnIQEAAUyYAgQgsvt5AwAFOC43LjAABkw2NzE5MAAEYXBwMg
+2023-11-01T12:22:23,935-0400 [85144 41] com.newrelic INFO: Agent 85144@L67190/app2 connected to collector.newrelic.com:443
+2023-11-01T12:22:23,935-0400 [85144 41] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/4220169/applications/548600697
+2023-11-01T12:22:23,938-0400 [85144 41] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-11-01T12:22:23,938-0400 [85144 41] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-11-01T12:22:23,938-0400 [85144 41] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-11-01T12:22:23,941-0400 [85144 41] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-11-01T12:22:23,941-0400 [85144 41] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-11-01T12:22:23,941-0400 [85144 41] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-11-01T12:22:24,184-0400 [85144 41] com.newrelic INFO: Real user monitoring is enabled for application app2. Auto instrumentation is enabled.
+2023-11-01T12:22:24,185-0400 [85144 41] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-11-01T12:31:53,190-0400 [85144 15] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2023-11-01T12:31:53,205-0400 [85144 46] com.newrelic INFO: Transaction com.newrelic.agent.Transaction@feb3069 tried to finish but ServiceManager not started
+2023-11-01T12:31:53,446-0400 [85144 15] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2023-11-01T12:36:07,778-0400 [25485 1] com.newrelic INFO: Writing to New Relic log file: /Users/mishan.goti/IdeaProjects/gts/distributed-tracing-poc/app2/newrelic/logs/newrelic_agent.log
+2023-11-01T12:36:07,778-0400 [25485 1] com.newrelic INFO: JRE vendor Eclipse Adoptium version 17.0.8.1
+2023-11-01T12:36:07,778-0400 [25485 1] com.newrelic INFO: JVM vendor Eclipse Adoptium OpenJDK 64-Bit Server VM version 17.0.8.1+1
+2023-11-01T12:36:07,778-0400 [25485 1] com.newrelic INFO: OS Mac OS X version 13.6 arch aarch64
+2023-11-01T12:36:07,778-0400 [25485 1] com.newrelic INFO: Agent Host: L67190 IP: 10.0.0.168
+2023-11-01T12:36:07,778-0400 [25485 1] com.newrelic INFO: New Relic Agent v8.7.0 is initializing...
+2023-11-01T12:36:07,995-0400 [25485 16] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2023-11-01T12:36:08,285-0400 [25485 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2023-11-01T12:36:08,369-0400 [25485 1] com.newrelic INFO: Setting audit_mode to false
+2023-11-01T12:36:08,417-0400 [25485 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /Users/mishan.goti/IdeaProjects/gts/distributed-tracing-poc/app2/newrelic/./newrelic.yml
+2023-11-01T12:36:08,418-0400 [25485 1] com.newrelic INFO: New Relic Agent v8.7.0 has started
+2023-11-01T12:36:08,418-0400 [25485 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@7113b13f
+2023-11-01T12:36:08,418-0400 [25485 1] com.newrelic INFO: Premain startup complete in 1,348ms
+2023-11-01T12:36:08,419-0400 [25485 1] com.newrelic WARN: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2023-11-01T12:36:09,493-0400 [25485 1] com.newrelic INFO: Server Info: Apache Tomcat/10.1.15
+2023-11-01T12:36:13,428-0400 [25485 41] com.newrelic INFO: Host name is L67190, display host L67190 for application app2
+2023-11-01T12:36:13,429-0400 [25485 41] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-11-01T12:36:13,871-0400 [25485 41] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2023-11-01T12:36:14,080-0400 [25485 41] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2023-11-01T12:36:14,081-0400 [25485 41] com.newrelic INFO: Agent run id: Bcl-vwXrWEykAEBlCSCzBrBlQn7oAAIBAAAnIQEAAGONAgQgsvt5AwAFOC43LjAABkw2NzE5MAAEYXBwMg
+2023-11-01T12:36:14,081-0400 [25485 41] com.newrelic INFO: Agent 25485@L67190/app2 connected to collector.newrelic.com:443
+2023-11-01T12:36:14,081-0400 [25485 41] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/4220169/applications/548600697
+2023-11-01T12:36:14,082-0400 [25485 41] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-11-01T12:36:14,082-0400 [25485 41] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-11-01T12:36:14,082-0400 [25485 41] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-11-01T12:36:14,083-0400 [25485 41] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-11-01T12:36:14,083-0400 [25485 41] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-11-01T12:36:14,083-0400 [25485 41] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-11-01T12:36:14,503-0400 [25485 41] com.newrelic INFO: Real user monitoring is enabled for application app2. Auto instrumentation is enabled.
+2023-11-01T12:36:14,503-0400 [25485 41] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-11-01T12:37:41,157-0400 [25485 15] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2023-11-01T12:37:41,753-0400 [25485 15] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2023-11-01T12:37:44,004-0400 [30099 1] com.newrelic INFO: Writing to New Relic log file: /Users/mishan.goti/IdeaProjects/gts/distributed-tracing-poc/app2/newrelic/logs/newrelic_agent.log
+2023-11-01T12:37:44,004-0400 [30099 1] com.newrelic INFO: JRE vendor Eclipse Adoptium version 17.0.8.1
+2023-11-01T12:37:44,004-0400 [30099 1] com.newrelic INFO: JVM vendor Eclipse Adoptium OpenJDK 64-Bit Server VM version 17.0.8.1+1
+2023-11-01T12:37:44,005-0400 [30099 1] com.newrelic INFO: OS Mac OS X version 13.6 arch aarch64
+2023-11-01T12:37:44,005-0400 [30099 1] com.newrelic INFO: Agent Host: L67190 IP: 10.0.0.168
+2023-11-01T12:37:44,005-0400 [30099 1] com.newrelic INFO: New Relic Agent v8.7.0 is initializing...
+2023-11-01T12:37:44,209-0400 [30099 16] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2023-11-01T12:37:44,491-0400 [30099 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2023-11-01T12:37:44,579-0400 [30099 1] com.newrelic INFO: Setting audit_mode to false
+2023-11-01T12:37:44,628-0400 [30099 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /Users/mishan.goti/IdeaProjects/gts/distributed-tracing-poc/app2/newrelic/./newrelic.yml
+2023-11-01T12:37:44,630-0400 [30099 1] com.newrelic INFO: New Relic Agent v8.7.0 has started
+2023-11-01T12:37:44,630-0400 [30099 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@7113b13f
+2023-11-01T12:37:44,630-0400 [30099 1] com.newrelic INFO: Premain startup complete in 1,043ms
+2023-11-01T12:37:44,630-0400 [30099 1] com.newrelic WARN: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2023-11-01T12:37:45,884-0400 [30099 1] com.newrelic INFO: Server Info: Apache Tomcat/10.1.15
+2023-11-01T12:37:49,640-0400 [30099 41] com.newrelic INFO: Host name is L67190, display host L67190 for application app2
+2023-11-01T12:37:49,642-0400 [30099 41] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-11-01T12:37:50,098-0400 [30099 41] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2023-11-01T12:37:50,464-0400 [30099 41] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2023-11-01T12:37:50,464-0400 [30099 41] com.newrelic INFO: Agent run id: BfpW8ryoddT5AEBlCSCzBrBlQn8kAAIBAAAnIQEAAHWTAgQgsvt5AwAFOC43LjAABkw2NzE5MAAEYXBwMg
+2023-11-01T12:37:50,464-0400 [30099 41] com.newrelic INFO: Agent 30099@L67190/app2 connected to collector.newrelic.com:443
+2023-11-01T12:37:50,465-0400 [30099 41] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/4220169/applications/548600697
+2023-11-01T12:37:50,467-0400 [30099 41] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-11-01T12:37:50,467-0400 [30099 41] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-11-01T12:37:50,467-0400 [30099 41] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-11-01T12:37:50,469-0400 [30099 41] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-11-01T12:37:50,469-0400 [30099 41] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-11-01T12:37:50,469-0400 [30099 41] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-11-01T12:37:50,827-0400 [30099 41] com.newrelic INFO: Real user monitoring is enabled for application app2. Auto instrumentation is enabled.
+2023-11-01T12:37:50,827-0400 [30099 41] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-11-01T12:41:15,453-0400 [30099 15] com.newrelic.agent.core.CoreServiceImpl INFO: JVM is shutting down
+2023-11-01T12:41:15,678-0400 [30099 15] com.newrelic.agent.core.CoreServiceImpl INFO: New Relic Agent has shutdown
+2023-11-01T12:41:18,323-0400 [40521 1] com.newrelic INFO: Writing to New Relic log file: /Users/mishan.goti/IdeaProjects/gts/distributed-tracing-poc/app2/newrelic/logs/newrelic_agent.log
+2023-11-01T12:41:18,323-0400 [40521 1] com.newrelic INFO: JRE vendor Eclipse Adoptium version 17.0.8.1
+2023-11-01T12:41:18,323-0400 [40521 1] com.newrelic INFO: JVM vendor Eclipse Adoptium OpenJDK 64-Bit Server VM version 17.0.8.1+1
+2023-11-01T12:41:18,323-0400 [40521 1] com.newrelic INFO: OS Mac OS X version 13.6 arch aarch64
+2023-11-01T12:41:18,323-0400 [40521 1] com.newrelic INFO: Agent Host: L67190 IP: 10.0.0.168
+2023-11-01T12:41:18,323-0400 [40521 1] com.newrelic INFO: New Relic Agent v8.7.0 is initializing...
+2023-11-01T12:41:18,533-0400 [40521 16] com.newrelic INFO: Instrumentation com.newrelic.instrumentation.jdbc-resultset is disabled. Skipping.
+2023-11-01T12:41:18,821-0400 [40521 1] com.newrelic.agent.RPMServiceManagerImpl INFO: Configured to connect to New Relic at collector.newrelic.com:443
+2023-11-01T12:41:18,906-0400 [40521 1] com.newrelic INFO: Setting audit_mode to false
+2023-11-01T12:41:18,953-0400 [40521 1] com.newrelic.agent.config.ConfigServiceImpl INFO: Configuration file is /Users/mishan.goti/IdeaProjects/gts/distributed-tracing-poc/app2/newrelic/./newrelic.yml
+2023-11-01T12:41:18,955-0400 [40521 1] com.newrelic INFO: New Relic Agent v8.7.0 has started
+2023-11-01T12:41:18,955-0400 [40521 1] com.newrelic INFO: Agent class loader: com.newrelic.bootstrap.BootstrapAgent$JVMAgentClassLoader@7113b13f
+2023-11-01T12:41:18,955-0400 [40521 1] com.newrelic INFO: Premain startup complete in 1,043ms
+2023-11-01T12:41:18,955-0400 [40521 1] com.newrelic WARN: New Relic Security is completely disabled by one of the user provided config `security.enabled`, `security.agent.enabled` or `high_security`. Not loading security capabilities.
+2023-11-01T12:41:20,015-0400 [40521 1] com.newrelic INFO: Server Info: Apache Tomcat/10.1.15
+2023-11-01T12:41:23,962-0400 [40521 41] com.newrelic INFO: Host name is L67190, display host L67190 for application app2
+2023-11-01T12:41:23,963-0400 [40521 41] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
+2023-11-01T12:41:24,357-0400 [40521 41] com.newrelic INFO: Collector redirection to collector.newrelic.com:443
+2023-11-01T12:41:24,671-0400 [40521 41] com.newrelic INFO: Max payload size is 1,000,000 bytes
+2023-11-01T12:41:24,671-0400 [40521 41] com.newrelic INFO: Agent run id: Bd4TPvqHSxb2AEBlCSCzBrBlQoAUAAIBAAAnIQEAAJ5JAgQgsvt5AwAFOC43LjAABkw2NzE5MAAEYXBwMg
+2023-11-01T12:41:24,672-0400 [40521 41] com.newrelic INFO: Agent 40521@L67190/app2 connected to collector.newrelic.com:443
+2023-11-01T12:41:24,672-0400 [40521 41] com.newrelic INFO: Reporting to: https://rpm.newrelic.com/accounts/4220169/applications/548600697
+2023-11-01T12:41:24,673-0400 [40521 41] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-11-01T12:41:24,673-0400 [40521 41] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-11-01T12:41:24,673-0400 [40521 41] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-11-01T12:41:24,675-0400 [40521 41] com.newrelic INFO: Using default collector host: collector.newrelic.com
+2023-11-01T12:41:24,675-0400 [40521 41] com.newrelic INFO: Using default metric ingest URI: https://metric-api.newrelic.com/metric/v1
+2023-11-01T12:41:24,675-0400 [40521 41] com.newrelic INFO: Using default event ingest URI: https://insights-collector.newrelic.com/v1/accounts/events
+2023-11-01T12:41:24,940-0400 [40521 41] com.newrelic INFO: Real user monitoring is enabled for application app2. Auto instrumentation is enabled.
+2023-11-01T12:41:24,940-0400 [40521 41] com.newrelic INFO: New Relic JFR Monitor is disabled: JFR config has not been enabled in the Java agent.
