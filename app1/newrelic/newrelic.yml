@@ -247,7 +247,7 @@ common: &default_settings
 
     # Set to false to disable distributed tracing.
     # Default is true.
-    enabled: true
+    enabled: false
 
     # Agent versions 5.10.0+ utilize both the newrelic header and W3C Trace Context headers for distributed tracing.
     # The newrelic distributed tracing header allows interoperability with older agents that don't support W3C Trace Context headers.
