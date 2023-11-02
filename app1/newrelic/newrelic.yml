@@ -255,7 +255,7 @@ common: &default_settings
     # If you do not want to utilize the newrelic header, setting this to true will result in the agent excluding the newrelic header
     # and only using W3C Trace Context headers for distributed tracing.
     # Default is false.
-    exclude_newrelic_header: false
+    exclude_newrelic_header: true
 
   # New Relic's distributed tracing UI uses Span events to disPlay traces across different services.
   # Span events capture attributes that describe execution context and provide linking metadata.
